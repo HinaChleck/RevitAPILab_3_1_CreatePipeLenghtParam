@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\Program Files\RevitAPITraining\RevitAPILab_3_1_CreatePipeLenghtParam.dll"</Assembly>
+		<AddInId>CD7776E7-1A6A-48B7-9631-4AC80914067C</AddInId>
+		<FullClassName>RevitAPILab_3_1_CreatePipeLenghtParam.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Длина труб с запасом L*1,1</Text>
+	</AddIn>
+</RevitAddIns>

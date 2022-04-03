@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPILab_3_1_CreatePipeLenghtParam", "RevitAPILab_3_1_CreatePipeLenghtParam\RevitAPILab_3_1_CreatePipeLenghtParam.csproj", "{123BED8A-61E6-410A-B9F0-9812B30FEAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{123BED8A-61E6-410A-B9F0-9812B30FEAA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123BED8A-61E6-410A-B9F0-9812B30FEAA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123BED8A-61E6-410A-B9F0-9812B30FEAA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123BED8A-61E6-410A-B9F0-9812B30FEAA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {847BB3C8-3A3B-48F9-9E02-E590275F0EDF}
+	EndGlobalSection
+EndGlobal
