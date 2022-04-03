@@ -32,7 +32,7 @@ namespace RevitAPILab_3_1_CreatePipeLenghtParam
 
                 double lengthParam = oPipe.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH).AsDouble();
 
-                double extraLength = lengthParam * 1.1;
+                double extraLength = lengthParam * 1.1/1000;
 
                 var categorySet = new CategorySet();
                 categorySet.Insert(Category.GetCategory(doc, BuiltInCategory.OST_PipeCurves));
@@ -40,8 +40,8 @@ namespace RevitAPILab_3_1_CreatePipeLenghtParam
                 using (Transaction ts = new Transaction(doc, "Set parameter"))
                 {
                     ts.Start();
-                    Parameter lParameter = oPipe.LookupParameter("Длина с запасом");
-                    lParameter.Set(extraLength);
+                    Parameter extraLengthParameter = oPipe.LookupParameter("Длина с запасом");
+                    extraLengthParameter.Set(extraLength);
 
                     ts.Commit();
                 }
